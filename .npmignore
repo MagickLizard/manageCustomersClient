@@ -1,0 +1,33 @@
+node_modules
+# Logs
+logs
+*.log
+
+# Runtime configuration
+config/default.json
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Dependency directories
+node_modules
+
+# Optional npm cache directory
+.npm
+
+
+# Editor files
+.idea
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+.vscode
+package-lock.json
+
+# Mac OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+

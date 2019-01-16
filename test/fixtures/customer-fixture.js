@@ -1,0 +1,3 @@
+function headCustomerLookup() {
+    return {hi}
+};

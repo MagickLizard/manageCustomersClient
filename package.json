@@ -1,0 +1,39 @@
+{
+  "name": "customer-client",
+  "main": "lib/customer-client-wrapper.js",
+  "author": {
+    "name": "Lizzie King"
+  },
+  "contributors": [
+    {
+      "name": "Lizzie King"
+    }
+  ],
+  "dependencies": {
+    "graphql": "^14.0.2",
+    "graphql-cli": "^2.16.7",
+    "request": "^2.83.0"
+  },
+  "description": "A simplified and standardised customer insert and lookup package",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "commander": "^2.9.0",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "iconv-lite": "^0.4.13",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.1.0",
+    "should": "^13.2.0"
+  },
+  "engines": {
+    "node": ">=6.x"
+  },
+  "license": "",
+  "optionalDependencies": {},
+  "readmeFilename": "README.md",
+  "scripts": {
+    "cover": "istanbul cover _mocha --config test/.istanbul.yml -- -R dot --recursive && node_modules/.bin/istanbul check-coverage --config test/.istanbul.yml"
+  },
+  "version": "1.0.1"
+}
